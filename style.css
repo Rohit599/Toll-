@@ -1,0 +1,174 @@
+/*
+Author: Javed Ur Rehman
+Website: http://www.allphptricks.com/
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: courier New;
+    font-size: 2rem;
+    text-align: center;
+    background: #000;
+}
+
+a{
+    color: #fff;
+    font-size:1rem;
+    font-family: courier New;
+    text-decoration: none;
+}
+
+h1 {
+    color: #f00;
+    font-size: 1rem;
+    margin: auto;
+}
+
+h2 {
+    color: #ff0;
+    margin: 20px auto;
+}
+
+h3 {
+    margin: 20px auto;
+    color: #fff;
+    opacity: 0.8;
+}
+
+img {
+    margin-top: 2rem;
+}
+
+ul {
+    list-style: none;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+ul li:before {
+    content: '- ';
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+footer p {
+    margin: 30px;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:last-child {
+    float: right;
+}
+.login_page{
+    width:480px;
+    padding:18% 0 0;
+    margin:auto;
+    border-radius: 40px;
+}
+.form{
+    position:relative;
+    z-index:1;
+    background: #000000;
+    max-width: 480px;
+    text-align: center;
+}
+.form input{
+    font-family: "Courier New", sans-serif;
+    font-weight:bold;
+    outline: 1;
+    background:#ffffff;
+    width:360px;
+    height:40px;
+    border:0;
+    margin:0 0 0px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size:20px;  
+    border-radius: 8px; 
+}
+.form button{
+    font-family: "Courier New",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline:0;
+    background: linear-gradient(#fff,#000);
+    width:360px;
+    height:40px;
+    border:0;
+    padding:8px;
+    border-radius: 8px;
+    color:#FFFFFF;
+    font-size: 28px;
+    cursor:pointer;
+    
+}
+.form button:hover,.form button:active{
+    background: #BDBDBD;
+}
+.form .message{
+    margin:15px 0 0;
+    color: aliceblue;
+    font-size:12px;
+}
+.form .message a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+.hidden{
+    display:none;
+}
+.form_control_custom::-webkit-input-placeholder {
+  font-family: 'Courier New', Arial, Helvetica, sans-serif;
+  color: #EEEEEE;
+  text-align: center;
+  font-size: 28px;
+}
+.form_control_custom::-moz-placeholder {
+  font-family: 'Courier New', Arial, Helvetica, sans-serif;
+  color: #BDBDBD;
+  text-align: center;
+  font-size: 36px;
+}
+
+.countdown{
+    margin:auto;
+    margin-top: 1rem;
+}
+.content{
+    margin: auto;
+    margin-top: 6rem;
+}
+body {font-family:Arial, Sans-Serif;}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+
+
+select{width: 220px; border-radius: 2px;border: 1px solid #CCC; padding: 10px; margin-top:13px} 
+.user_select {
+    margin-top: ;
+}
+.one_time_user {
+    
+    width: 336px;
+    height: 269px;
+    max-height: 467px;
+    border: 1px solid #000;
+    padding-left: 60px;
+   
+}
+.Frequent-User {
+    margin-top: 100px !important;
+}
